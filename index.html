@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    .grid > div {
+        grid-row: var(--r);
+        grid-column: var(--c);
+    }
+    </style>
+</head>
+<body>
+    <div class="-w-full bg-zinc-900">
+    <div class="grid grid-cols-8 grid-rows-8 gap-2">
+        <div class="col-span-1 row-span-1" style="--r: 1; --c: 1;"><img src="https://images.unsplash.com/photo-1725961476284-fa0f6dd682a3?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8" class="w-full h-full object-cover" alt="Image 1" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 1; --c: 2;"><img src="https://images.unsplash.com/photo-1723384960692-1c2565e14b18?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4fHx8ZW58MHx8fHx8" class="w-full h-full object-cover" alt="Image 2" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 2; --c: 3;"><img src="https://images.unsplash.com/photo-1717397488983-3f1ccd584c22?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2M3x8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 3" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 2; --c: 4;"><img src="https://images.unsplash.com/photo-1726053468445-816331eba2ae?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2Nnx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 4" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 3; --c: 5;"><img src="https://images.unsplash.com/photo-1725900351486-f342d4743c1b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2N3x8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 5" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 3; --c: 6;"><img src="https://images.unsplash.com/photo-1725905822151-bc434f0f2514?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3MHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 6" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 4; --c: 7;"><img src="https://images.unsplash.com/photo-1639443444549-a8d7b05b14b1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3Mnx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 7" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 4; --c: 8;"><img src="https://images.unsplash.com/photo-1726090148303-d8d8906a1875?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3OXx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 8" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 5; --c: 1;"><img src="https://images.unsplash.com/photo-1725983615817-963c4b2ccb06?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4NXx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 9" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 5; --c: 2;"><img src="https://plus.unsplash.com/premium_photo-1726010492874-f66747127110?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4Nnx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 10" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 6; --c: 3;"><img src="https://images.unsplash.com/photo-1726096523685-977cb002374c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4OHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 11" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 6; --c: 4;"><img src="https://plus.unsplash.com/premium_photo-1725894426628-0eeb54e2032c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5MHx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 12" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 7; --c: 5;"><img src="https://images.unsplash.com/photo-1726082627279-9092ed9d3fe5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5N3x8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 13" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 7; --c: 6;"><img src="https://plus.unsplash.com/premium_photo-1725793870057-7bc3ba446336?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5OXx8fGVufDB8fHx8fA%3D%3D" class="w-full h-full object-cover" alt="Image 14" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 8; --c: 7;"><img src="https://plus.unsplash.com/premium_photo-1666266622687-2e3e817aac13?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMDR8fHxlbnwwfHx8fHw%3D" class="w-full h-full object-cover" alt="Image 15" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 8; --c: 8;"><img src="https://images.unsplash.com/photo-1725743537422-b36edd83b46a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMDV8fHxlbnwwfHx8fHw%3D" class="w-full h-full object-cover" alt="Image 16" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 9; --c: 1;"><img src="https://images.unsplash.com/photo-1725715443838-1574b8eb1c3a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMDZ8fHxlbnwwfHx8fHw%3D" class="w-full h-full object-cover" alt="Image 17" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 9; --c: 2;"><img src="https://plus.unsplash.com/premium_photo-1724017317716-b4e54da1e294?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMDh8fHxlbnwwfHx8fHw%3D" class="w-full h-full object-cover" alt="Image 18" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 10; --c: 3;"><img src="https://images.unsplash.com/photo-1719937051176-9b98352a6cf4?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMTF8fHxlbnwwfHx8fHw%3D" class="w-full h-full object-cover" alt="Image 19" ></div>
+        <div class="col-span-1 row-span-1" style="--r: 10; --c: 4;"><img src="https://plus.unsplash.com/premium_photo-1724076820794-3140772e74e5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMTN8fHxlbnwwfHx8fHw%3D" class="w-full h-full object-cover" alt="Image 20" ></div>
+    </div> 
+      
+    </div>
+
+
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+    <script src="script.js"></script>
+</body>
+</html>
